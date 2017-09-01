@@ -1,0 +1,9 @@
+docker run -it \
+--rm \
+-h "my-dev" \
+--name="my-dev" \
+--privileged \
+-p 2809:2809 \
+-p 6000-6020:6000-6020 \
+ace1 bash
+
